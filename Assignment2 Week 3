@@ -1,5 +1,5 @@
-## 
-
+## This file is to be submitted as requirement for R Programming Coursera Course
+## The function is a special matrix function to get the inverse
 
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -15,6 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
        setinverse = setinverse,
        getinverse = getinverse)
 }
+## This is to solve for the inverse matrix function
 cacheSolve <- function(x, ...) {
   inv <- x$getinverse()
   if(!is.null(inv)) {
